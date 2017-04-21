@@ -1,0 +1,26 @@
+//
+//  XYTableViewCell.swift
+//  StaticDynamicCellSwift
+//
+//  Created by xiyang on 2017/4/21.
+//  Copyright © 2017年 xiyang. All rights reserved.
+//
+
+import UIKit
+
+class XYTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var lab_content: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+    
+}
