@@ -27,6 +27,7 @@ class TableViewController: UITableViewController {
         self.tableView.register(UINib.init(nibName: "XYTableViewCell", bundle: nil), forCellReuseIdentifier: "XYTableViewCell")
         self.tableView.tableFooterView = UIView()
         self.tableView.estimatedRowHeight = 200
+        self.tableView.rowHeight = UITableViewAutomaticDimension
         self.lab_product.text = "波音747"
         self.lab_info.text = "波音747（英语：Boeing 747）是由美国波音公司在上个世纪六十年代末在美国空军的主导下推出的大型商用宽体客/货运输机（Wide-body commercial airliner and cargo transport aircraft）亦为世界上第一款宽体民用飞机，自1970年投入服务后，到空客A380投入服务之前，波音747保持全世界载客量最高飞机的纪录长达37年。"
         self.dataSource = NSMutableArray(array: ["开着可爽了","能够上天啊","66666666666我要上天，请不要拦我","哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈","开着可爽了","能够上天啊","66666666666我要上天，请不要拦我","哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"])
